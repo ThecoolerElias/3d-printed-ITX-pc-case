@@ -1,6 +1,19 @@
 # 3d-printed-ITX-pc-case
 I want to design and print a new ITX case for my pc
 
+
+---
+
+## Project Status
+testing how i can 3d print a mesh
+
+---
+
+## Inspiration 
+
+---
+
+## Specifications
 # Main Linux Gaming Build
 
 A zero cost Frankenstein build combining parts from two old PCs into a capable Linux gaming machine running CachyOS.
@@ -62,3 +75,55 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 | i5-8400, GTX 1070 Ti, H310M-D, DDR4, 250GB NVMe, Corsair VS650 | Scrap PC |
 | NZXT Case, CPU Cooler, Club ATX PSU (not used), Z97 board (not used) | White Monster PC |
 | 1TB NVMe, 2TB HDD, 500GB HDD | Various |
+---
+
+---
+
+## Design Goals
+i want the case to be as compact as possible while keeping things like airflow, size, aesthetics etc  in mind
+
+---
+
+## Bill of Materials
+- Filament PLA and so far alot
+- screws
+- standoffs
+- fans etc)
+
+---
+
+## Tools Used
+- CAD software Fusion 360 (maybe also some solidworks)
+- Slicer Cura or bamboolab 
+- Printer model (creality cr 10 v2)
+
+---
+
+## Design Files
+Links to STL/STEP files, CAD source files
+
+---
+
+## Print Settings
+Layer height, infill, supports, material etc
+
+---
+
+## Assembly Guide
+Step by step how to put it together
+
+---
+
+## Iterations / Changelog
+Document each version and what you changed and why
+
+---
+
+## Photos
+Progress shots, finished build
+
+---
+
+## Known Issues / Future Improvements
+Honest notes on what could be better
+
