@@ -10,6 +10,7 @@ testing how i can 3d print a mesh
 ---
 
 ### Inspiration 
+<img width="451" height="431" alt="image" src="https://github.com/user-attachments/assets/02b77c19-4b5e-4ffe-bb2f-5fbfe3987d19" />
 
 ---
 
