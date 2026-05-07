@@ -11,7 +11,7 @@ thinking of using some lazercut wood as side panels
 ---
 
 ### Inspiration 
-<img width="451" height="431" alt="image" src="https://github.com/user-attachments/assets/02b77c19-4b5e-4ffe-bb2f-5fbfe3987d19" />
+<img width="447" height="331" alt="image" src="https://github.com/user-attachments/assets/d0c9ac23-1919-487e-9a7f-13d117e3f133" />
 
 ---
 
