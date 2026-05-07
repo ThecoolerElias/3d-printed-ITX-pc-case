@@ -1,52 +1,64 @@
 # 3d-printed-ITX-pc-case
 I want to design and print a new ITX case for my pc
 
-## my pc
-### Scrap PC — Parts Donor Build
+# Main Linux Gaming Build
 
-This machine was stripped for parts and Frankensteined into a primary Linux gaming rig. All usable components have been repurposed. Documented here for reference.
+A zero cost Frankenstein build combining parts from two old PCs into a capable Linux gaming machine running CachyOS.
 
 ---
 
-#### Specifications
+## Specifications
 
 | Component | Spec |
 |---|---|
-| **CPU** | Intel Core i5-8400 (Coffee Lake, LGA1151 300-series, 6 core) |
+| **CPU** | Intel Core i5-8400 (Coffee Lake, LGA1151, 6 core) |
 | **GPU** | NVIDIA GeForce GTX 1070 Ti 8GB |
 | **Motherboard** | ASUS PRIME H310M-D (Mini-ITX, LGA1151) |
+| **CPU Cooler** | Aftermarket (sourced from donor build) |
 | **RAM** | 16GB DDR4 |
-| **Storage** | 250GB NVMe M.2 SSD |
+| **Primary Storage** | 1TB NVMe M.2 SSD |
+| **Secondary Storage** | 2TB HDD |
+| **Tertiary Storage** | 500GB HDD |
 | **PSU** | Corsair VS650 650W |
-| **Case** | Cooler Master Mini-ITX (Black) |
-| **CPU Cooler** | Stock Intel (heavily dust clogged — caused thermal throttling) |
+| **Case** | NZXT ATX (White) |
+| **Fan Hub** | Powered PWM fan hub (dedicated power connector) |
+| **Case Fans** | 3x case fans — 2 front intake, 1 rear exhaust |
 
 ---
 
-#### Known Issues
+## Storage Layout
 
-- **Thermal throttling** — CPU was thermal throttling immediately under stress test due to dust clogged stock Intel cooler and dried out thermal paste. Likely fine after repasting and cleaning
-- **Stock cooler** — barely adequate even when clean, replaced with aftermarket cooler from donor build
+| Drive | Mount | Purpose |
+|---|---|---|
+| 1TB NVMe M.2 | `/` | OS + active games |
+| 2TB HDD | `/mnt/games` | Game library overflow + media |
+| 500GB HDD | `/mnt/backup` | Backups + secondary storage |
 
 ---
 
-#### Parts Reused In Main Gaming Build
+## Operating System
 
-| Component | Destination |
+- **Distro** — CachyOS (Arch-based)
+- **Kernel** — CachyOS kernel with BORE scheduler patches
+- **GPU Driver** — NVIDIA proprietary
+- **Gaming Layer** — Steam + Proton
+
+---
+
+## Build Notes
+
+- Motherboard is Mini-ITX mounted inside an ATX case using only the 4 relevant standoff positions
+- Front panel headers may need extension cables due to ITX board position in ATX case
+- Fan hub draws power from SATA connector on PSU — all 3 fans connect to hub, single PWM signal wire runs to motherboard chassis header
+- Positive air pressure configuration (2 intake, 1 exhaust) to minimise dust intake
+- Total build cost — $0
+
+---
+
+## Parts Origin
+
+| Component | Source |
 |---|---|
-| i5-8400 | Main gaming PC — CPU |
-| GTX 1070 Ti | Main gaming PC — GPU |
-| ASUS H310M-D | Main gaming PC — Motherboard |
-| 16GB DDR4 | Main gaming PC — RAM |
-| Corsair VS650 | Main gaming PC — PSU |
-| Cooler Master Case | Spare |
-
----
-
-#### Parts Status
-
-| Component | Status |
-|---|---|
-| 250GB NVMe SSD | Spare |
-| Stock Intel Cooler | Retired |
-| Cooler Master Case | Available for future build |
+| i5-8400, GTX 1070 Ti, H310M-D, DDR4, 250GB NVMe, Corsair VS650 | Scrap PC |
+| NZXT Case, CPU Cooler, Club ATX PSU (not used), Z97 board (not used) | White Monster PC |
+| 1TB NVMe, 2TB HDD, 500GB HDD | Various |
