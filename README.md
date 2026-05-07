@@ -94,7 +94,7 @@ i want the case to be as compact as possible while keeping things like airflow, 
 
 ### Tools Used
 - CAD software Fusion 360 (maybe also some solidworks)
-- Slicer Cura or bamboolab 
+- Slicer Cura or bambu studio 
 - Printer model (creality cr 10 v2)
 
 ---
