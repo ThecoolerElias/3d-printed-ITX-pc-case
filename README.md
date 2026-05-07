@@ -4,23 +4,21 @@ I want to design and print a new ITX case for my pc
 
 ---
 
-## Project Status
+### Project Status
 testing how i can 3d print a mesh
 
 ---
 
-## Inspiration 
+### Inspiration 
 
 ---
 
-## Specifications
-# Main Linux Gaming Build
+### Specifications
+#### Main Linux Gaming Build
 
 A zero cost Frankenstein build combining parts from two old PCs into a capable Linux gaming machine running CachyOS.
 
 ---
-
-## Specifications
 
 | Component | Spec |
 |---|---|
@@ -39,7 +37,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 ---
 
-## Storage Layout
+#### Storage Layout
 
 | Drive | Mount | Purpose |
 |---|---|---|
@@ -49,7 +47,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 ---
 
-## Operating System
+#### Operating System
 
 - **Distro** — CachyOS (Arch-based)
 - **Kernel** — CachyOS kernel with BORE scheduler patches
@@ -58,7 +56,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 ---
 
-## Build Notes
+#### Build Notes
 
 - Motherboard is Mini-ITX mounted inside an ATX case using only the 4 relevant standoff positions
 - Front panel headers may need extension cables due to ITX board position in ATX case
@@ -68,7 +66,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 ---
 
-## Parts Origin
+#### Parts Origin
 
 | Component | Source |
 |---|---|
@@ -79,12 +77,12 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 ---
 
-## Design Goals
+### Design Goals
 i want the case to be as compact as possible while keeping things like airflow, size, aesthetics etc  in mind
 
 ---
 
-## Bill of Materials
+### Bill of Materials
 - Filament PLA and so far alot
 - screws
 - standoffs
@@ -92,38 +90,38 @@ i want the case to be as compact as possible while keeping things like airflow, 
 
 ---
 
-## Tools Used
+### Tools Used
 - CAD software Fusion 360 (maybe also some solidworks)
 - Slicer Cura or bamboolab 
 - Printer model (creality cr 10 v2)
 
 ---
 
-## Design Files
+### Design Files
 Links to STL/STEP files, CAD source files
 
 ---
 
-## Print Settings
+### Print Settings
 Layer height, infill, supports, material etc
 
 ---
 
-## Assembly Guide
+### Assembly Guide
 Step by step how to put it together
 
 ---
 
-## Iterations / Changelog
+### Iterations / Changelog
 Document each version and what you changed and why
 
 ---
 
-## Photos
+### Photos
 Progress shots, finished build
 
 ---
 
-## Known Issues / Future Improvements
-Honest notes on what could be better
+### Known Issues / Future Improvements
+
 
