@@ -6,6 +6,7 @@ I want to design and print a new ITX case for my pc
 
 ### Project Status
 testing how i can 3d print a mesh
+thinking of using some lazercut wood as side panels 
 
 ---
 
