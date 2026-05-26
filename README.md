@@ -25,7 +25,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 | Component | Spec |
 |---|---|
 | **CPU** | Intel Core i5-8400 (Coffee Lake, LGA1151, 6 core) |
-| **GPU** | NVIDIA GeForce GTX 1070 Ti 8GB |
+| **GPU** | Asus GeForce® GTX 1070 Ti 8GB ROG Strix |
 | **Motherboard** | ASUS PRIME H310M-D (Mini-ITX, LGA1151) |
 | **CPU Cooler** | Aftermarket (sourced from donor build) |
 | **RAM** | 16GB DDR4 |
