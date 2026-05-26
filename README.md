@@ -1,41 +1,54 @@
 # 3d-printed-ITX-pc-case
-I want to design and print a new ITX case for my pc
 
+A custom designed and 3D printed Mini-ITX PC case with laser cut wood and acrylic side panels. Built around a zero cost Frankenstein gaming build running CachyOS.
 
 ---
 
 ### Project Status
-testing how i can 3d print a mesh
-thinking of using some lazercut wood as side panels 
+
+- Designing skeleton frame in Fusion 360
+- Testing mesh geometry for 3D printing
+- Planning laser cut plywood and acrylic side panels sourced from school laser cutter
+- Researching 120mm AIO cooling solution
 
 ---
 
-### Inspiration 
+### Inspiration
+
 <img width="447" height="331" alt="image" src="https://github.com/user-attachments/assets/d0c9ac23-1919-487e-9a7f-13d117e3f133" />
 
 ---
 
+### Design Goals
+
+- As compact as possible while maintaining adequate airflow
+- Skeleton frame design with laser cut panels for a clean aesthetic
+- PETG skeleton for heat resistance near components
+- 3mm plywood and acrylic side panels cut via school laser cutter
+- Panels exported as DXF from Fusion 360 for direct use in laser cutter software
+- Designed around a 120mm AIO radiator mounted as a structural/visual element
+
+---
+
 ### Specifications
+
 #### Main Linux Gaming Build
 
 A zero cost Frankenstein build combining parts from two old PCs into a capable Linux gaming machine running CachyOS.
 
----
-
 | Component | Spec |
 |---|---|
 | **CPU** | Intel Core i5-8400 (Coffee Lake, LGA1151, 6 core) |
-| **GPU** | Asus GeForce® GTX 1070 Ti 8GB ROG Strix |
+| **GPU** | Asus GeForce GTX 1070 Ti 8GB ROG Strix |
 | **Motherboard** | ASUS PRIME H310M-D (Mini-ITX, LGA1151) |
-| **CPU Cooler** | Aftermarket (sourced from donor build) |
+| **CPU Cooler** | 120mm AIO |
 | **RAM** | 16GB DDR4 |
 | **Primary Storage** | 1TB NVMe M.2 SSD |
 | **Secondary Storage** | 2TB HDD |
 | **Tertiary Storage** | 500GB HDD |
 | **PSU** | Corsair VS650 650W |
-| **Case** | NZXT ATX (White) |
-| **Fan Hub** | Powered PWM fan hub (dedicated power connector) |
-| **Case Fans** | 3x case fans — 2 front intake, 1 rear exhaust |
+| **Fan Hub** | Powered PWM fan hub (dedicated SATA power connector) |
+| **Case Fans** | 2x 120mm intake + 1x 120mm AIO radiator fan |
 
 ---
 
@@ -60,10 +73,8 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 #### Build Notes
 
-- Motherboard is Mini-ITX mounted inside an ATX case using only the 4 relevant standoff positions
-- Front panel headers may need extension cables due to ITX board position in ATX case
-- Fan hub draws power from SATA connector on PSU — all 3 fans connect to hub, single PWM signal wire runs to motherboard chassis header
-- Positive air pressure configuration (2 intake, 1 exhaust) to minimise dust intake
+- Motherboard is Mini-ITX — standard 170mm x 170mm form factor
+- Fan hub draws power from SATA connector on PSU — all fans connect to hub, single PWM signal wire runs to motherboard chassis header
 - Total build cost — $0
 
 ---
@@ -72,58 +83,81 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 | Component | Source |
 |---|---|
-| i5-8400, GTX 1070 Ti, H310M-D, DDR4, 250GB NVMe, Corsair VS650 | Scrap PC |
-| NZXT Case, CPU Cooler, Club ATX PSU (not used), Z97 board (not used) | White Monster PC |
+| i5-8400, GTX 1070 Ti, H310M-D, DDR4, Corsair VS650 | Scrap PC |
+| CPU Cooler donor | White Monster PC |
 | 1TB NVMe, 2TB HDD, 500GB HDD | Various |
----
-
----
-
-### Design Goals
-i want the case to be as compact as possible while keeping things like airflow, size, aesthetics etc  in mind
 
 ---
 
 ### Bill of Materials
-- Filament PLA and so far alot
-- screws
-- standoffs
-- fans etc)
+
+| Item | Material | Notes |
+|---|---|---|
+| Skeleton frame | PETG | Heat resistant, strong layer adhesion |
+| Side panels | 3mm plywood | Laser cut at school |
+| Window panel | 3mm acrylic | Laser cut at school |
+| Screws | M3 | For joining printed parts and mounting components |
+| Standoffs | Brass M3 | Motherboard mounting |
+| AIO | 120mm | LGA1151 compatible |
+| Fans | 120mm | 2x intake |
 
 ---
 
 ### Tools Used
-- CAD software Fusion 360 (maybe also some solidworks)
-- Slicer Cura or bambu studio 
-- Printer model (creality cr 10 v2)
 
----
-
-### Design Files
-Links to STL/STEP files, CAD source files
+| Tool | Purpose |
+|---|---|
+| Fusion 360 (Education license) | Primary CAD — 3D modelling and DXF panel exports |
+| SolidWorks (maybe) | Secondary CAD if needed |
+| Cura / Bambu Studio | Slicing |
+| Creality CR-10 V3 | 3D printing (300x300x400mm build volume) |
+| School laser cutter | Cutting plywood and acrylic panels |
 
 ---
 
 ### Print Settings
-Layer height, infill, supports, material etc
+
+> To be documented as design is finalised
+
+Planned settings:
+- **Material** — PETG
+- **Layer height** — 0.2mm
+- **Infill** — 30-40% for structural parts
+- **Perimeters** — 3-4 walls minimum
+- **Supports** — as needed
+
+---
+
+### Design Files
+
+> To be added as design progresses
+
+- STL files for printed skeleton parts
+- STEP source files
+- DXF files for laser cut panels
 
 ---
 
 ### Assembly Guide
-Step by step how to put it together
+
+> To be documented after first prototype
 
 ---
 
 ### Iterations / Changelog
-Document each version and what you changed and why
+
+| Version | Changes |
+|---|---|
+| v0.1 | Initial layout sketch — component positioning in Fusion 360 |
 
 ---
 
 ### Photos
-Progress shots, finished build
+
+> To be added
 
 ---
 
 ### Known Issues / Future Improvements
 
-
+> To be updated as build progresses
