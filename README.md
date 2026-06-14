@@ -7,9 +7,9 @@ A custom designed and 3D printed Mini-ITX PC case with laser cut wood and acryli
 ### Project Status
 
 - Designing skeleton frame in Fusion 360
-- Testing mesh geometry for 3D printing
-- Planning laser cut plywood and acrylic side panels sourced from school laser cutter
-- Researching 120mm AIO cooling solution
+- Testing mesh geometry for 3D printing (solved)
+- Planning laser cut plywood and acrylic side panels sourced from school laser cutter (solved)
+- Researching 120mm AIO cooling solution (solved)
 
 ---
 
