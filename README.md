@@ -1,15 +1,12 @@
-# 3d-printed-ITX-pc-case
+# 3d-printed-Mini-ATX-pc-case
 
-A custom designed and 3D printed Mini-ITX PC case with laser cut wood and acrylic side panels. Built around a zero cost Frankenstein gaming build running CachyOS.
+A custom designed and 3D printed Micro-ATX PC case with laser cut wood and acrylic side panels. Built around a zero cost Frankenstein gaming build running CachyOS.
 
 ---
 
 ### Project Status
 
 - Designing skeleton frame in Fusion 360
-- Testing mesh geometry for 3D printing (solved)
-- Planning laser cut plywood and acrylic side panels sourced from school laser cutter (solved)
-- Researching 120mm AIO cooling solution (solved)
 
 ---
 
@@ -40,25 +37,13 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 |---|---|
 | **CPU** | Intel Core i5-8400 (Coffee Lake, LGA1151, 6 core) |
 | **GPU** | Asus GeForce GTX 1070 Ti 8GB ROG Strix |
-| **Motherboard** | ASUS PRIME H310M-D (Mini-ITX, LGA1151) |
+| **Motherboard** | ASUS PRIME H310M-D (Micro-ATX, LGA1151) |
 | **CPU Cooler** | 120mm AIO |
 | **RAM** | 16GB DDR4 |
 | **Primary Storage** | 1TB NVMe M.2 SSD |
-| **Secondary Storage** | 2TB HDD |
-| **Tertiary Storage** | 500GB HDD |
 | **PSU** | Corsair VS650 650W |
 | **Fan Hub** | Powered PWM fan hub (dedicated SATA power connector) |
 | **Case Fans** | 2x 120mm intake + 1x 120mm AIO radiator fan |
-
----
-
-#### Storage Layout
-
-| Drive | Mount | Purpose |
-|---|---|---|
-| 1TB NVMe M.2 | `/` | OS + active games |
-| 2TB HDD | `/mnt/games` | Game library overflow + media |
-| 500GB HDD | `/mnt/backup` | Backups + secondary storage |
 
 ---
 
@@ -73,8 +58,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 #### Build Notes
 
-- Motherboard is Mini-ITX — standard 170mm x 170mm form factor
-- Fan hub draws power from SATA connector on PSU — all fans connect to hub, single PWM signal wire runs to motherboard chassis header
+- Fan hub draws power from molex connector on PSU — all fans connect to hub, single PWM signal wire runs to motherboard chassis header
 - Total build cost — $0
 
 ---
@@ -83,9 +67,8 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 
 | Component | Source |
 |---|---|
-| i5-8400, GTX 1070 Ti, H310M-D, DDR4, Corsair VS650 | Scrap PC |
-| CPU Cooler donor | White Monster PC |
-| 1TB NVMe, 2TB HDD, 500GB HDD | Various |
+| i5-8400, GTX 1070 Ti, H310M-D, DDR4, Corsair VS650 | scrap pc i found in the trash |
+| 1TB NVMe, 2TB HDD, 500GB HDD | found in other trashed pcs and old workstations|
 
 ---
 
@@ -111,6 +94,7 @@ A zero cost Frankenstein build combining parts from two old PCs into a capable L
 | SolidWorks (maybe) | Secondary CAD if needed |
 | Cura / Bambu Studio | Slicing |
 | Creality CR-10 V3 | 3D printing (300x300x400mm build volume) |
+|Bambulab p2s| 3D printing|
 | School laser cutter | Cutting plywood and acrylic panels |
 
 ---
@@ -123,7 +107,6 @@ Planned settings:
 - **Material** — PETG
 - **Layer height** — 0.2mm
 - **Infill** — 30-40% for structural parts
-- **Perimeters** — 3-4 walls minimum
 - **Supports** — as needed
 
 ---
@@ -133,8 +116,6 @@ Planned settings:
 > To be added as design progresses
 
 - STL files for printed skeleton parts
-- STEP source files
-- DXF files for laser cut panels
 
 ---
 
